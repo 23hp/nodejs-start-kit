@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-start-kit",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Albert Who",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "debug": "nodemon --inspect server/index.js",
+    "build": "babel server -d dist",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "latest",
+    "dotenv": "^6.0.0",
+    "express": "latest",
+    "moment": "^2.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.4"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      [
+        "babel-plugin-inline-import",
+        {
+          "extensions": [
+            ".graphql",
+            ".gql"
+          ]
+        }
+      ]
+    ]
+  }
+}
