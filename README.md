@@ -1,7 +1,9 @@
-# nodejs-start-kit
+﻿# nodejs-start-kit
 
 #### 项目介绍
 自用nodeJs起步套件，能应付各类中小需求，亦可用于练习和实践。
+
+项目入口文件: server/index.js
 
 包含的库：
 - `nodemon` 热更新，实时响应你的代码修改
