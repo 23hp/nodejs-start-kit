@@ -1,7 +1,7 @@
 ﻿# nodejs-start-kit
 
 #### 项目介绍
-自用nodeJs起步套件，能应付各类中小需求，亦可用于练习和实践。
+自用nodeJs起步套件，能应付各类中小需求，亦可用于练习和实践。支持Docker部署。
 
 项目入口文件: server/index.js
 
@@ -25,9 +25,9 @@
 
 - 使用Docker直接部署
     
-    docker build -t myProj .
+    docker build -t my-proj .
     
-    docker run -d -p 8000:8000 myProj
+    docker run -d -p 8000:8000 my-proj
     
     
     
