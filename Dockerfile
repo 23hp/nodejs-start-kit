@@ -1,5 +1,5 @@
 # node底包
-FROM node:9.11.1-alpine
+FROM node:9.11.1-slim
 # 定义容器中的工作路径
 WORKDIR /app
 COPY package.json yarn.lock ./
