@@ -13,5 +13,5 @@
     "js": "babel-node"
   },
   "ext": ".js,.json,.graphql",
-  "watch": "./"
+  "watch": "./server"
 }
