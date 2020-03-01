@@ -10,7 +10,7 @@
     "serve": "node dist/index.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "latest",
     "dotenv": "^6.0.0",
     "express": "latest",
